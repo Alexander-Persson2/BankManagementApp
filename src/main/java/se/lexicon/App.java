@@ -6,5 +6,6 @@ public class App {
         account1.deposit(500.0);
         account1.withdraw(200.0);
         account1.withdraw(15000.0);
+        System.out.println(account1.displayAccountInfo());
     }
 }

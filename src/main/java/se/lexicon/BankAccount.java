@@ -73,4 +73,12 @@ public class BankAccount {
             System.out.println("Cannot withdraw negative amount");
         }
     }
+    public String displayAccountInfo() {
+        return "Account Number: " + this.accountNumber + "\n" +
+                "Customer Name: " + this.customerName + "\n" +
+                "Email: " + this.email + "\n" +
+                "Phone Number: " + this.phoneNumber + "\n" +
+                "Balance: " + this.balance;
+
+    }
 }
